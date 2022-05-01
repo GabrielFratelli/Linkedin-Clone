@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import ProfilePanel from './ProfilePanel';
-import HashtagPanel from './HashtagPanel';
+import ProfilePanel from "./ProfilePanel";
+import HashtagPanel from "./HashtagPanel";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
 const LeftColumn: React.FC = () => {
   return (

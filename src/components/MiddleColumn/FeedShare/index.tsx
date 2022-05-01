@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Panel from '../../Panel';
+import Panel from "../../Panel";
 
 import {
   Container,
@@ -9,7 +9,7 @@ import {
   VideoCameraIcon,
   DocumentIcon,
   ArticleIcon,
-} from './styles';
+} from "./styles";
 
 const FeedShare: React.FC = () => {
   return (
