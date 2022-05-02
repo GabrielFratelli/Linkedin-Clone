@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import Panel from '../../Panel';
+import Panel from "../../Panel";
 
-import { Container, HashtagIcon } from './styles';
+import { Container, HashtagIcon } from "./styles";
 
-const tags = ['rocketseat', 'next-level', 'node', 'react', 'developer'];
+const tags = ["mobile", "frontend", "programação", "desenvolvedorweb", "analistadesistemas"];
 
 const HashtagPanel: React.FC = () => {
   return (
     <Container>
       <Panel>
-        <span className="title">Hashtags seguidas</span>
+        <span className="title">Fala Sobre:</span>
 
         {tags.map((item) => (
           <span className="tag">
